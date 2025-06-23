@@ -1,6 +1,6 @@
 # 🛡️ AWS Threat Hunting and Visualization Pipeline
 
-This project implements a comprehensive, real-time threat detection and visualization pipeline using AWS Security Hub, CloudTrail, VPC Flow Logs, and related services. Findings and logs from GuardDuty, Macie, Inspector, CloudTrail, and VPC Flow Logs are ingested, stored, cataloged, and visualized using a fully automated and serverless architecture.
+This project builds an automated, serverless pipeline that collects security findings and logs from AWS services (like **GuardDuty**, **Macie**, **Inspector**, **CloudTrail**, and **VPC Flow** Logs), stores them in **S3**, catalogs their schema with **Glue Crawlers**, allows querying with **Athena**, and visualizes the data in near real-time dashboards using Grafana enabling comprehensive threat hunting and network monitoring all in one unified view.
 
 ---
 
